@@ -6,6 +6,7 @@ baked_goods= 75
 #Calculate the total number of items in the inventory
 inventory = fruits + vegetables + dairy +baked_goods
 #Add 20 more dairy items to the inventory
+#note for future, instead of changing the variable, keep the same. The updated version of the variable will be printed
 updated_dairy= dairy + 20
 #Check if the number of Baked Goods are greater than or equal to 70 and store the result in a variable 
 a = baked_goods>= 70
