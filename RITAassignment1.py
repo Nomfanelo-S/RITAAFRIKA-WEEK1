@@ -1,10 +1,10 @@
-price = 101.22
+price = int(input("How much is the item? "))
 
 if price <= 10:
-    print("Cheap")
+    print("Your item is cheap")
 elif price <= 50:
-    print("Affordable")
+    print("Your item is affordable")
 elif price <= 100:
-    print("Moderate")
+    print("Your item is  moderate")
 else: 
-    print("Expensive")
+    print("Your item is expensive")
