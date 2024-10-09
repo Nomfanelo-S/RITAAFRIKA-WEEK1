@@ -1,15 +1,11 @@
-number=9
-if number % 2==0:
-    print("The number is even.")
+age= 35
+if age < 0:
+    print("Error: age cannot be negative")
+elif age <= 12:
+    print("Child")
+elif age <= 19: 
+    print("Teenager")
+elif age <= 64:
+    print("Adult")
 else:
-    print("The number is odd.") 
-
-score = 75
-if score >= 90:
-    print("Grade: A(Excellent)")
-elif score >= 80:
-    print("Grade: B (Very Good)")
-elif score >= 70: 
-    print("Grade: C(Good)")
-else: 
-    print("Grade: F(Fail)")
+    print("Senior")
